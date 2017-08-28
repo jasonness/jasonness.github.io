@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<title> Test Blocks </title>
+<body>
+
+<canvas id="myCanvas" width=800 height=600 style="border:0px solid #505050;">Canvas is not supported by your browser</canvas>
+
+<script> var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+ctx.font = "30px Arial";
+ctx.fillText("Blocks",canvas.width/2 -70,25);
+
+ctx.strokeRect(0,30,800,525)
+
+ctx.fillStyle = "#A538F1";
+ctx.fillRect(130,210,60,40);
+
+ctx.fillStyle = "#F3B263";
+ctx.fillRect(90,460,30,30);
+
+ctx.fillStyle = "#0680C6";
+ctx.fillRect(625,200,100,15);
+
+</script>
+<p>But really this is a test and does nothing</p>
+</body>
+</html>
